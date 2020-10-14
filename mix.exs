@@ -4,7 +4,7 @@ defmodule AntlUtilsAbsinthe.MixProject do
   def project do
     [
       app: :antl_utils_absinthe,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       description: description(),
@@ -22,7 +22,7 @@ defmodule AntlUtilsAbsinthe.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:absinthe_plug, "~> 1.4.7"}
+      {:absinthe_plug, "~> 1.5"}
     ]
   end
 
