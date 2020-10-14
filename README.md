@@ -6,13 +6,13 @@ Set of utils for Absinthe
 
 ## Installation
 
-AntlUtilsAbsinthe is published on [Hex](https://hex.pm/packages/antl_utils_absinthe).  
+AntlUtilsAbsinthe is published on [Hex](https://hex.pm/packages/antl_utils_absinthe).
 The package can be installed by adding `antl_utils_absinthe` to your list of dependencies in mix.exs:
 
 ```elixir
 def deps do
   [
-    {:antl_utils_absinthe, "~> 0.1.0"}
+    {:antl_utils_absinthe, "~> 0.2.0"}
   ]
 end
 ```
